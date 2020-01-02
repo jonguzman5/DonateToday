@@ -1,12 +1,108 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title></title>
-  <link rel="stylesheet" href="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/8796d23855.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>DonateToday | Helping & Saving</title>
 </head>
-<body>
+<body id="home">
+    <nav id="navbar">
+        <h1 class="logo">
+            <span class="text-primary"><i class="fas fa-parachute-box"></i> Donate</span>Today
+        </h1>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a class="work">Our Work</a></li>
+        </ul>
+    </nav>
+    <header id="showcase">
+        <div class="showcase-content">
+            <h1 class="l-heading">
+                Donate To Us
+            </h1>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, soluta dolore sunt laborum debitis quasi?</p>
+            <a class="btn">Donate</a>
 
+        </div>
+    </header>
+
+    <section id="mission" class="bg-light py-1">
+        <div class="container">
+            <h2 class="m-heading text-center">
+                <span class="text-primary">Our</span> Mission
+            </h2>
+            <div class="items">
+                <div class="item">
+                    <i class="fas fa-prescription-bottle-alt"></i>
+                    <div>
+                        <h3>Supply Medicine</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, labore?</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="fas fa-fire-extinguisher"></i>
+                    <div>
+                        <h3>Put out Wildfires</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, labore?</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="fas fa-helicopter"></i>
+                    <div>
+                        <h3>Rescue Efforts</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, labore?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="highlights" class="py-1">
+        <div class="container">
+            <h2 class="m-heading text-center">
+                <span class="text-primary">Featured</span> Highlights
+            </h2>
+        </div>
+        <div class="items py-1">
+            <div><img src="./img/highlights/highlight1.jpg" alt="Highlight1"></div>
+            <div><img src="./img/highlights/highlight2.jpg" alt="Highlight2"></div>
+            <div><img src="./img/highlights/highlight3.jpg" alt="Highlight3"></div>
+            <div><img src="./img/highlights/highlight4.jpg" alt="Highlight4"></div>
+        </div>
+    </section>
+
+    <section id="newsletter">
+        <div class="newsletter-form bg-primary p-2">
+            <h2 class="m-heading">Subscribe to Our Newsletter</h2>
+            <p>Stay up-to-date with disaster alerts & ways to get involved</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter Email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" name="phone" id="phone" placeholder="Enter Phone Number">
+                </div>
+                <input type="submit" value="Subscribe" class="btn btn-dark">
+            </form>
+        </div>
+        <div class="nl"></div>
+    </section>
+
+    <footer id="main-footer" class="bg-dark text-center py-1">
+        <div class="container">
+            <p>Copyright &copy; 2020, DonateToday, All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
