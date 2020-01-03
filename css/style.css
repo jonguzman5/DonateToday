@@ -206,3 +206,34 @@ p {
     width: 100%;
     padding: 0.5;
 }
+
+/* Our Work */
+
+/* Showcase */
+
+#our-work-showcase {
+
+    background: #333 url('https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80') no-repeat center center/cover;
+    height: 40vh;
+    color: #FFF;
+
+}
+
+#our-work-showcase .showcase-content {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    padding: 0 2rem;
+
+    position: absolute;
+    top: 65px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(0,0,0,0.4); */
+
+}
