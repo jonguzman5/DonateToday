@@ -60,8 +60,13 @@ p {
 }
 
 .lead {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin-bottom: 2rem;
+}
+
+.lead2 {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
 }
 
 .py-1 { padding: 1.5rem 0; }
@@ -209,8 +214,6 @@ p {
 
 /* Our Work */
 
-/* Showcase */
-
 #our-work-showcase {
 
     background: #333 url('https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80') no-repeat center center/cover;
@@ -228,6 +231,7 @@ p {
     align-items: center;
     height: 40%;
     padding: 0 2rem;
+    text-decoration: underline;
 
     position: absolute;
     top: 65px;
@@ -237,3 +241,45 @@ p {
     /* background-color: rgba(0,0,0,0.4); */
 
 }
+
+#typhoon {
+
+    margin-top: 3rem;
+    background: #333 url('https://www.nesdis.noaa.gov/sites/default/files/20191008-TYPHagibis.jpg') no-repeat center center/cover;
+    height: 50vh;
+    color: white;
+
+}
+
+#polio {
+
+    margin-top: 3rem;
+    background: #333 url('http://polioeradication.org/wp-content/uploads/2016/07/unspecified-4.jpg') no-repeat center center/cover;
+    height: 50vh;
+    color: white;
+
+}
+
+#wildfire {
+
+    margin-top: 3rem;
+    background: #333 url('https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1440,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1540340615/181022-megas-greece-fires-tease_tnbbrv') no-repeat center center/cover;
+    height: 50vh;
+    color: white;
+
+}
+
+.our-work-container {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+    /* padding-top: 10rem; */
+    background-color: rgba(0,0,0,0.4);
+
+}
+
